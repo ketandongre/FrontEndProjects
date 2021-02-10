@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+}
+.container{
+    display: flex;
+    width: 90vw;
+}
+.panel{
+    display: flex;
+    color:#fff;
+    border-radius: 10%;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    flex:0.5;
+    margin: 1%;
+    cursor: pointer;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.panel h3{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.active{
+    flex: 5;
+}
+.active h3{
+    opacity: 1;
+}
