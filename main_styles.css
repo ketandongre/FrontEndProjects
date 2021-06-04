@@ -1,14 +1,13 @@
 *{
     box-sizing: border-box;
 }
-body{
-    background-color: #222
-}
 #Title{
     font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
 }
 body h1{
     text-align: center;
-    background-color: white;
+}
+ul{
+    height: 100%;
 }
